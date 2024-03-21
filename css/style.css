@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+body {
+    font-family: "Anta", sans-serif;
+}
+
+
+.container {
+    padding: 10px 4%;
+}
+
+:root {
+    --gray-blue: #1A2852;
+    --white: #ECF0F1;
+    --gray-white: #B3B6B7;
+}
+/* banner-image start */
+.main{
+    background: url(../img/banne.jpg) center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+/* banner-image end */
+
+/* navbar start */
+
+.menu .logo {
+    font-size: 25px;
+    color: var(--white);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+
+.menu_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 5px 25px;
+    /* border: 2px solid red; */
+    /* border-radius: 15px; */
+    /* background-color:var(--gray-white) ; */
+
+}
+
+ul li a {
+    color: var(--white);
+    transition: all .3s linear;
+}
+
+ul li a:hover {
+    color: #10a5f5;
+}
+/* navbar end */
+
+/* banner star */
+ .banner{
+    color: var(--white);
+    position: relative;
+    text-align: right;
+ }
+
+ .banner-area{
+    position: absolute;
+    top: 3rem;
+    right: 9rem;
+    width: 500px;
+    /* font-size: 24px; */
+ }
+
+ .banner-area h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+ }
+
+
+ .banner-area p{
+    font-size: 25px;
+    padding: 100px 0px;
+    line-height: 50px;
+ }
+
+/* banner end */
+
+/* About start */
+.about{
+    margin: 15px 0px;
+}
+
+.about .left_side{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10%;
+    
+}
+
+.left_side h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.left_side p {
+    margin-bottom: 20px;
+}
+/* About end */
+
+/* Event section start*/
+.events_se{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.event-text{
+    box-shadow: 0px 0px 5px 1px #000000;
+}
+
+/* Event section end*/
